@@ -7,24 +7,24 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: "Project One",
-    year: 2023,
+    title: "Written Work",
+    year: 2016,
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam veritatis dolorem rem praesentium dicta labore, at laudantium quisquam.",
-    url: "https://example.com/",
+      " Click here to view curated and corroborated documentation in regards to Ayanda being a part of an organisation that helped keep its' community accurately and well informed on relevant subject matters. ",
+    url: "https://docs.google.com/document/d/1yv2RJuksHSdfY5YkSV-65bIF8Sbup1c400l7IgW-rVs/edit?usp=sharing",
   },
   {
-    title: "Project Two",
-    year: 2022,
+    title: "Multi & Mass Media Work",
+    year: 2016,
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam veritatis dolorem rem praesentium dicta labore, at laudantium quisquam.",
-    url: "https://example.com/",
+      " Click here to view curated and corroborated documentation in regards to Ayanda helping others by producing the vision for their projects and his work with companies as a part of communication channels that catalyzed profitable business partnerships.",
+    url: "https://docs.google.com/document/d/1ZQztAZGPNY5MQLl9jIkkbz9MciU2irOVz9WSuPlrXmM/edit?usp=sharing",
   },
   {
-    title: "Project Three",
+    title: "Works in Progress (Publicly announced)",
     year: 2021,
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam veritatis dolorem rem praesentium dicta labore, at laudantium quisquam.",
-    url: "https://example.com/",
+      "Click here to view curated and corroborated documentation in regards to Ayanda starting a government endorsed business in the community he grew up in.",
+    url: "/blog/Publicly-announced_Works_in_Progress",
   },
 ];

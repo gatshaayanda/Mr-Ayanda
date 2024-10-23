@@ -1,10 +1,11 @@
 import Image from "next/image";
 import { socialLinks } from "./config";
+import Link from "next/link";
 
 export default function Page() {
   return (
     <section>
-      <a href={socialLinks.twitter} target="_blank">
+      <a href={socialLinks.linkedin} target="_blank">
         <Image
           src="/profile.png"
           alt="Profile photo"
@@ -17,49 +18,46 @@ export default function Page() {
       </a>
 
       <h1 className="mb-8 text-2xl font-medium tracking-tight">
-        Portfolio, made simple!
+        Independent Contractor: Ayanda
       </h1>
 
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-          A clean, fast, and lightweight portfolio template built with Next.js,
-          Vercel, and Tailwind CSS for optimal performance.
-        </p>
-        <p>
-          Nextfolio includes all the essentials for a stunning portfolio: SEO,
-          MDX support, RSS, Atom, & JSON feeds, analytics, tweet & YouTube
-          embeds, KaTeX integration, and{" "}
+    He was part of an organisation that helped keep its' community accurately and well informed on subject matters of relevance.
+    {" "}
           <a
             target="_blank"
-            href="https://github.com/1msirius/Nextfolio?tab=readme-ov-file#features"
+            href="https://docs.google.com/document/d/1yv2RJuksHSdfY5YkSV-65bIF8Sbup1c400l7IgW-rVs/edit?tab=t.0#heading=h.xvrop77qnce7"
+          >
+            more
+          </a>
+        </p>
+        <p>
+       He helped produce other peoples' vision for their projects and worked with companies as a part of communications channels that catalyzed profitable business partnerships. started 
+       a government endorsed business in the community he grew up in.
+       {" "}
+          <a
+            target="_blank"
+            href="https://docs.google.com/document/d/1ZQztAZGPNY5MQLl9jIkkbz9MciU2irOVz9WSuPlrXmM/edit?usp=sharing"
           >
             more
           </a>
           .
         </p>
         <p>
-          Nextfolio is{" "}
-          <a href={socialLinks.github} target="_blank">
-            open-source
-          </a>{" "}
-          and fully customizable, making it easy to add more features.
+          He started 
+          a government endorsed business in the community he grew up in. {" "}
+          <Link href="/blog"
+           >
+            more
+          </Link>{" "}
         </p>
+      
         <p>
-          <a
-            href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2F1msirius%2FNextfolio"
-            target="_blank"
-          >
-            Deploy
-          </a>{" "}
-          your Nextfolio site with Vercel in minutes and follow the set up
-          instructions in the{" "}
-          <a href="/blog/getting-started">Getting Started</a> post.
-        </p>
-        <p>
-          Built and maintained by{" "}
-          <a href="https://imsirius.xyz/" target="_blank">
-            Sirius
-          </a>
+          This web application has been built and maintained by{" "}
+          {/* <a href="" target="_blank"> */}
+            Ayanda
+          {/* </a> */}
           .
         </p>
       </div>
