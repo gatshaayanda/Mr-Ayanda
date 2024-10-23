@@ -7,9 +7,10 @@ export default function Page() {
     <section>
       <a href={socialLinks.linkedin} target="_blank">
         <Image
-          src="/profile.png"
+          src="/propic.png"
           alt="Profile photo"
-          className="rounded-full bg-gray-100 block lg:mt-5 mt-0 lg:mb-5 mb-10 mx-auto sm:float-right sm:ml-5 sm:mb-5 grayscale hover:grayscale-0"
+          className="rounded-full block bg-blue-100 p-1 hover:grayscale lg:mt-5 mt-0 lg:mb-5 mb-10 mx-auto sm:float-right sm:ml-5 sm:mb-5 hover:grayscale"
+                        // "     ^bg-gray-100                                                                   ^grayscale" 
           unoptimized
           width={160}
           height={160}
@@ -27,6 +28,7 @@ export default function Page() {
     {" "}
           <a
             target="_blank"
+            className=" p-1 bg-blue-100 hover:grayscale rounded-lg"
             href="https://docs.google.com/document/d/1yv2RJuksHSdfY5YkSV-65bIF8Sbup1c400l7IgW-rVs/edit?tab=t.0#heading=h.xvrop77qnce7"
           >
             more
@@ -38,6 +40,7 @@ export default function Page() {
        {" "}
           <a
             target="_blank"
+                className=" p-1 bg-blue-100 hover:grayscale rounded-lg"
             href="https://docs.google.com/document/d/1ZQztAZGPNY5MQLl9jIkkbz9MciU2irOVz9WSuPlrXmM/edit?usp=sharing"
           >
             more
@@ -47,7 +50,7 @@ export default function Page() {
         <p>
           He started 
           a government endorsed business in the community he grew up in. {" "}
-          <Link href="/blog"
+          <Link href="/blog"     className=" p-1 bg-blue-100 hover:grayscale rounded-lg"
            >
             more
           </Link>{" "}
