@@ -11,7 +11,7 @@ export default function BlogPosts() {
 
   return (
     <section>
-      <h1 className="mb-8 text-2xl font-medium tracking-tight">Our Blog</h1>
+      <h1 className="mb-8 text-2xl font-medium tracking-tight">The Blog Page</h1>
       <div>
         {allBlogs
           .sort((a, b) => {
@@ -26,7 +26,7 @@ export default function BlogPosts() {
           .map((post) => (
             <Link
               key={post.slug}
-              className="flex flex-col space-y-1 mb-4 transition-opacity duration-200 hover:opacity-80"
+              className="flex flex-col p-1 bg-blue-100 hover:grayscale rounded-lg space-y-1 mb-4 transition-opacity duration-200 hover:opacity-80"
               href={`/blog/${post.slug}`}
             >
               <div className="w-full flex flex-col sm:flex-row justify-between items-start sm:items-center space-y-1 sm:space-y-0 sm:space-x-2">

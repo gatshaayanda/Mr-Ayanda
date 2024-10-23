@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { projects } from "./project-data";
 
 export const metadata: Metadata = {
-  title: "Projects",
+  title: "The Projects Page",
   description: "My Projects",
 };
 
@@ -19,8 +19,9 @@ export default function Projects() {
             href={project.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="block group hover:opacity-80 transition-opacity duration-200"
+            className="block p-1 bg-blue-100 hover:grayscale rounded-lg group hover:opacity-80 transition-opacity duration-200"
           >
+            {/*   className=" p-1 bg-blue-100 hover:grayscale rounded-lg" */}
             <div className="flex flex-col">
               <div className="w-full flex justify-between items-baseline">
                 <span className="text-black dark:text-white font-medium tracking-tight">
