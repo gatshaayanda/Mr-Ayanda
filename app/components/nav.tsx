@@ -14,7 +14,7 @@ export function Navbar() {
     <nav className="lg:mb-16 mb-12 py-5">
       <div className="flex flex-col md:flex-row md:items-center justify-between">
         <div className="flex items-center">
-          <Link href="/" className="text-3xl p-1 bg-blue-100 hover:grayscale rounded-lg font-semibold tracking-tight">
+          <Link href="/" className="text-3xl p-1 underline hover:underline-offset-8 font-semibold tracking-tight">
           {/*     className=" bg-blue-100 hover:grayscale" */}
             {metaData.webPageTitle}
           </Link>
@@ -24,7 +24,7 @@ export function Navbar() {
             <Link
               key={path}
               href={path}
-              className="transition-all p-1 bg-blue-100 rounded-lg hover:grayscale hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative"
+              className="transition-all p-1 underline  hover:underline-offset-8 hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative"
             >
               {name}
             </Link>

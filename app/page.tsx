@@ -4,12 +4,12 @@ import Link from "next/link";
 
 export default function Page() {
   return (
-    <section>
+    <section >
       <a href={socialLinks.linkedin} target="_blank">
         <Image
           src="/propic.png"
           alt="Profile photo"
-          className="rounded-full block bg-blue-100 p-1 hover:grayscale lg:mt-5 mt-0 lg:mb-5 mb-10 mx-auto sm:float-right sm:ml-5 sm:mb-5 hover:grayscale"
+          className="rounded-full block  p-1 hover:grayscale lg:mt-5 mt-0 lg:mb-5 mb-10 mx-auto sm:float-right sm:ml-5 sm:mb-5 hover:grayscale"
                         // "     ^bg-gray-100                                                                   ^grayscale" 
           unoptimized
           width={160}
