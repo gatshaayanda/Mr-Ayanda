@@ -35,8 +35,7 @@ export default function Page() {
           </a>
         </p>
         <p>
-       He helped produce other peoples' vision for their projects and worked with companies as a part of communications channels that catalyzed profitable business partnerships. started 
-       a government endorsed business in the community he grew up in.
+       He helped produce other peoples' vision for their projects and worked with companies as a part of communications channels that catalyzed profitable business partnerships.
        {" "}
           <a
             target="_blank"
